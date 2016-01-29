@@ -1,4 +1,5 @@
 # Formats should be added below with respective directory name.
+# Please refer to 'Known formats' section on README
 formats = {
     'Music': ['.mp3', '.aac', '.flac', '.ogg', '.wma', '.m4a', '.aiff'],
     'Videos': ['.flv', '.ogv', '.avi', '.mp4', '.mpg', '.mpeg', '.3gp',

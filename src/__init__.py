@@ -1,12 +1,11 @@
 import argparse
 import os
 
-global formats
 from .config import formats
 from .classifier import classify
 
 
-def main():
+def main(formats=formats):
     description =   "Organize files in your directory instantly, "
     description +=  "by classifying them into different folders"
     parser = argparse.ArgumentParser(description = description)

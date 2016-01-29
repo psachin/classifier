@@ -98,6 +98,12 @@ Workspace
 
 ```
 
+## Known formats
+List of known formats taken from Wikipedia
+* [Audio](https://en.wikipedia.org/wiki/Audio_file_format)
+* [Images](https://en.wikipedia.org/wiki/Image_file_formats)
+* [Video](https://en.wikipedia.org/wiki/Video_file_format)
+* [Documents](https://en.wikipedia.org/wiki/List_of_Microsoft_Office_filename_extensions Majority of it is from MS Office)
 
 ## The MIT License
 > Copyright (c) 2015 Bhrigu Srivastava http://bhrigu123.github.io
