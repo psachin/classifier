@@ -57,46 +57,13 @@ Downloads
 
 
 ##Options
-`classifier [-h] [-st SPECIFIC_TYPES [SPECIFIC_TYPES ...]] 
-			[-sf SPECIFIC_FOLDER] [-o OUTPUT]`
-## -h --help
-show help message and exit
+`classifier [-dt] [-st SPECIFIC_TYPES [SPECIFIC_TYPES ...]] [-sf SPECIFIC_FOLDER] [-o OUTPUT]`
 
-## -st --specific-types
-Move all file extensions, given in the args list, in the current directory into the Specific Folder
-
-## -sf --specific-folder
-Folder to move files with Specific Type
-
-## -o --output
-Main directory to put organized folders
-
-###Example
-`classifier -st .py .pyc -sf "Python Files"`
-
-###Before
-```
-Workspace
-│   ├── views.py
-│   ├── temp.pyc
-│   ├── game.java
-│   ├── index.html
-│   ├── script.py
-```
-
-
-###After
-```
-Workspace
-│   ├── Python Files
-│   │   └── views.py
-│   │   ├── temp.pyc
-|	|	├── script.py
-|	|
-|	├── game.java
-|	├── index.html
-
-```
+	-h --help				show help message and exit
+	-dt --date				Classify the files by their Creation Date
+	-st --specific-types	Move the specific file extensions into the Specific Folder
+	-sf --specific-folder	Folder to move files with Specific Type
+	-o --output				Main directory to put organized folders 
 
 ## Known formats
 List of known formats taken from Wikipedia
@@ -104,6 +71,9 @@ List of known formats taken from Wikipedia
 * [Images](https://en.wikipedia.org/wiki/Image_file_formats)
 * [Video](https://en.wikipedia.org/wiki/Video_file_format)
 * [Documents](https://en.wikipedia.org/wiki/List_of_Microsoft_Office_filename_extensions)
+
+######Classify by Date:
+`classifier -dt`
 
 ## The MIT License
 > Copyright (c) 2015 Bhrigu Srivastava http://bhrigu123.github.io
